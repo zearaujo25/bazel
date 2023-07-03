@@ -33,11 +33,11 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     artifacts = [
         "org.apache.commons:commons-lang3:3.12.0" ,
- 'org.springframework.boot:spring-boot-autoconfigure:2.1.3.RELEASE',
+    'org.springframework.boot:spring-boot-autoconfigure:2.1.3.RELEASE',
     'org.springframework.boot:spring-boot-starter-web:2.1.3.RELEASE',
     'org.springframework.boot:spring-boot:2.1.3.RELEASE',
     'org.springframework:spring-web:5.1.5.RELEASE',
-    "org.springframework:spring-context:5.1.5.RELEASE"
+    "org.springframework:spring-context:5.1.5.RELEASE",
     "org.immutables:value-annotations:2.9.2",
     "org.immutables:value:2.9.2",
     "com.fasterxml.jackson.core:jackson-databind:2.12.5",
