@@ -8,6 +8,8 @@ java_binary(
         "src/main/java/com/mynetflix/*.java",
         "src/main/java/com/mynetflix/spring/*.java",
         "src/main/java/com/mynetflix/model/*.java",
+        "src/main/java/com/mynetflix/dagger/*.java",
+        "src/main/java/com/mynetflix/service/*.java",
     ]),
     main_class = "com.mynetflix.spring.MyNetflixWebApp",
     plugins = [
@@ -22,5 +24,6 @@ java_binary(
         "@maven//:org_springframework_boot_spring_boot",
         "@maven//:org_springframework_boot_spring_boot_autoconfigure",
         "@maven//:org_springframework_boot_spring_boot_starter_web",
-        "@maven//:org_springframework_spring_web",   ],
+        "@maven//:org_springframework_spring_web",   
+        "@maven//:org_springframework_spring_context",],
 )
